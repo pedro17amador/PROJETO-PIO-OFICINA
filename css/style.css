@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@400;500;600;700&family=Inter:wght@400;500&family=Open+Sans:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+    
+}
+header{
+    padding: 20px;
+    background-color: #051933;
+    height: 180px;
+    
+    
+}
+
+
+header h1{
+    color: white;
+    display: inline-block;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+nav{
+   float: right; 
+   margin-right: 20px;
+}
+
+header nav a{
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    margin: 15px;
+
+}
+/*--------------------------------------HEADER------------------------------------------*/
+ .about{
+    background-image: url(../imagens/tech01.jpg);
+    height: 700px;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.about > h2{
+    color: white;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 30px;
+    margin-left: 100px;
+    padding-top: 120px;
+    padding-bottom: 20px;
+}
+
+.about p{
+    width: 40%;
+    color: aliceblue;
+    font-family: 'Inter', sans-serif;
+    text-align: justify;
+    margin-left: 30px;
+    font-size: 1.2em;
+}
+/*----------------------------------ABOUT-------------------------------------------*/
+.logica{
+    
+    
+}
+
+.logica > h2{
+    margin-top: 50px;
+    margin-left: 50px;
+   color: #093366;
+   font-size: 50px;
+   font-family: 'Gemunu Libre', sans-serif;
+}
+
+.test{
+    background-image: url(https://www.alura.com.br/artigos/assets/algoritmos-e-logica-de-programacao/algoritmos-logica-programacao.jpeg);
+    background-size: cover;
+    width: 85%;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 20px;
+    
+}
+
+.texto{
+    max-width: 1280px;
+    padding: 50px;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.texto p{
+    padding: 20px;
+    line-height: 30px;
+    font-size: 1.2em;
+    text-align: justify;
+}
+.texto h3{
+    font-size: 1.4em;
+}
+
+.texto ul{
+    list-style: inside;
+    font-size: 1.2em;
+    text-align: justify;
+    margin-left: 30px;
+    
+}
+
+/*------------------------------LOGICA-------------------------------*/
+
+.video-center{
+    padding-top: 100px;
+}
+.videos h2{
+    color: #093366;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+.video h3{
+    color: #051933;
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+}
+
+.video{
+    margin-top: 100px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+.video p{
+    padding: 20px;
+    width: 80%;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2em;
+}
+.video iframe{
+    padding: 20px;
+}
+/*--------------------------------Sobre Nos-----------------------------------*/
+.cor{
+    background-color: #051933;
+}
+
+.sobreNos{
+ max-width:1280px ;
+ margin: 0 auto;
+ font-size: 1.2em;
+ 
+}
+.sobreNos h2{
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 2em;
+    padding: 50px;
+    color: white;
+
+}
+
+.sobreNos p{
+    padding-bottom: 50px;
+    font-family: 'Inter', sans-serif;
+    text-align: justify;
+    color: white;
+}
+.alunoImg{
+   display: flex;
+   justify-content: space-around;
+   padding: 30px 0;
+   
+    
+   
+}
+.mateus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+.imagem{
+    background-image: url(../imagens/avatar\ propq\ masc.png);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+}
+/*------------------------------Sobre Nos---------------------------------------*/
+footer{
+    height: 200px;
+    background-color: #051933;
+    text-align: center;
+}
+ footer hr{
+    background-color: white;
+    height: 3px;
+ }
+
+ footer p{
+    font-size: 1.2em;
+    color: white;
+    padding-top: 100px;
+ }
